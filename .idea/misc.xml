@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-content-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-page-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-page-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-sellergoods-serv ice" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-sellergoods-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-shop-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-user-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-user-web" />
+    <file type="web" url="file://$PROJECT_DIR$/springjms_consumer" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pinyougouParent/pom.xml" />
+        <option value="$PROJECT_DIR$/pinyougouParent/pinyougou-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/springjms_producer/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/pinyougouParent/pinyougou-sellergoods-serv ice/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

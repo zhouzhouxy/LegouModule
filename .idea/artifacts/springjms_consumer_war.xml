@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springjms_consumer:war">
+    <output-path>$PROJECT_DIR$/springjms_consumer/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springjms_consumer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springjms_consumer.war">
+      <element id="artifact" artifact-name="springjms_consumer:war exploded" />
+    </root>
+  </artifact>
+</component>

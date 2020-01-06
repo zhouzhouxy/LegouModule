@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/pinyougouParent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pingyougou-content-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-content-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-manager-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-page-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-page-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-page-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-portal-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-search-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-search-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-sellergoods-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-sellergoods-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-shop-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-solr-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-user-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouParent/pinyougou-user-web" charset="UTF-8" />
+  </component>
+</project>

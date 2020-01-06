@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+<!--    配置dubbo的应用名称-->
+    <dubbo:application name="pinyougou-sellergoods-service"/>
+<!--    配置注册中心地址-->
+    <dubbo:registry  protocol="zookeeper" address="zookeeper://192.168.25.134:2181"/>
+<!--    配置dubbo扫描包：将@service所在包放入dubbo扫描中，供dubbor在rpc时使用-->
+    <dubbo:annotation package="com.pinyougou.sellergoods.service.impl"/>
+    <!-- 声明要暴露的服务接口(发布服务)  -->
+    <dubbo:service interface="com.pinyougou.sellergoods.service.BrandService" ref="brandServiceImpl" timeout="300000"/>
+    <dubbo:service interface="com.pinyougou.sellergoods.service.ItemCatService" ref="itemCatServiceImpl" timeout="300000"/>
+
+<!--    全局修改的办法(timeout时间可以自己调整)-->
+<!--    <dubbo:provider delay="-1" timeout="60000" retries="0"/>-->
+<!--    将@Service所在包放入springIOC容器中，供后续依赖注入时使用-->
+    
+    <context:component-scan base-package="com.pinyougou.sellergoods.service.impl"/>
+</beans>
