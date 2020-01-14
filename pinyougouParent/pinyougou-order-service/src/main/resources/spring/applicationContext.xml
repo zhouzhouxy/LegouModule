@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+    <!--    注意：我们目前有两个服务工程，当两个工程同时启动时会发生端口
+            因为连接dubbox注册中心的端口默认是20880，所以重新配置端口为20882-->
+    <dubbo:protocol name="dubbo" port="20890"/>
+
+    <!--    配置dubbo应用名称-->
+    <dubbo:application name="pinyougou-order-service"/>
+<!--    配置dubbo注册中心-->
+    <dubbo:registry address="zookeeper://192.168.25.134:2181"/>
+
+    <!--    配置dubbo扫描包：将@service所在包放入dubbo扫描中，供dubbo在rpc时使用-->
+    <dubbo:annotation package="com.pinyougou.order.service.impl"/>
+
+<!--    spring扫描包-->
+    <context:component-scan base-package="com.pinyougou.order.service.impl"/>
+
+    <bean id="idWorker" class="util.IdWorker">
+<!--        进程ID-->
+        <constructor-arg index="0" value="0"></constructor-arg>
+<!--        数据中心ID-->
+        <constructor-arg index="1" value="0"></constructor-arg>
+    </bean>
+</beans>
