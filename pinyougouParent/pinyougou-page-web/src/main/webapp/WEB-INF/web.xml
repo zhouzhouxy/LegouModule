@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          version="2.5">
   <display-name>Archetype Created Web Application</display-name>
-<!--  解决post乱码-->
+<!--  解决post乱码
   <filter>
     <filter-name>CharacterEncodingFilter</filter-name>
     <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -34,4 +34,5 @@
     <servlet-name>springmvc</servlet-name>
     <url-pattern>*.do</url-pattern>
   </servlet-mapping>
+  -->
 </web-app>

@@ -26,7 +26,6 @@ public class PageListener implements MessageListener {
         try {
             String text = textMessage.getText();
             System.out.println("接收到消息:"+text);
-
             boolean b = itemPageService.genItemHtml(Long.valueOf(text));
         } catch (JMSException e) {
             e.printStackTrace();

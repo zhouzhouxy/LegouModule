@@ -52,6 +52,24 @@
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:4.1.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:4.1.0.RELEASE" />
+          <element id="archive" name="pinyougou-seckill-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="pinyougou-seckill-interface" />
+          </element>
+          <element id="archive" name="pinyougou-pojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="pinyougou-pojo" />
+          </element>
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.20" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-solr:1.5.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.11.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.3" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.4" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient-cache:4.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.solr:solr-solrj:4.10.3" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:wstx-asl:3.2.7" />
+          <element id="library" level="project" name="Maven: org.noggit:noggit:0.5" />
           <element id="archive" name="pinyougou-common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="pinyougou-common" />
           </element>
@@ -62,23 +80,8 @@
           <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.4.2" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.7.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-keyvalue:1.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.12.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-oxm:4.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.21" />
-          <element id="archive" name="pinyougou-pojo-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="pinyougou-pojo" />
-          </element>
-          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.20" />
-          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-solr:1.5.5.RELEASE" />
-          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
-          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
-          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.3" />
-          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.4" />
-          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.2.2" />
-          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient-cache:4.2.2" />
-          <element id="library" level="project" name="Maven: org.apache.solr:solr-solrj:4.10.3" />
-          <element id="library" level="project" name="Maven: org.codehaus.woodstox:wstx-asl:3.2.7" />
-          <element id="library" level="project" name="Maven: org.noggit:noggit:0.5" />
           <element id="archive" name="pinyougou-sellergoods-interface-1.0-SNAPSHOT.jar">
             <element id="module-output" name="pinyougou-sellergoods-interface" />
           </element>

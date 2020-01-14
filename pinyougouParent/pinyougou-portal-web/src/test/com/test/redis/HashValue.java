@@ -1,5 +1,6 @@
 package com.test.redis;
 
+import com.pinyougou.pojo.TbSeckillGoods;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -55,5 +56,11 @@ public class HashValue {
     @Test
     public void testRemoveValueByKey(){
         redisTemplate.boundHashOps("namehash").delete("c");
+    }
+
+    @Test
+    public  void test1(){
+        Object seckillGoods = redisTemplate.boundHashOps("seckillGoods").values();
+        System.out.println(seckillGoods);
     }
 }

@@ -7,17 +7,17 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
 		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
     <context:property-placeholder location="classpath*:*/*.properties"/>
-<!--    因为使用activemq来执行网页静态化 所以不需要使用dubbo-->
-    <!--    注意：我们目前有两个服务工程，当两个工程同时启动时会发生端口
-        因为连接dubbox注册中心的端口默认是20880，所以重新配置端口为20882-->
-<!--    <dubbo:protocol name="dubbo" port="20886"/>-->
-    <!--    配置dubbo应用名称-->
-<!--    <dubbo:application name="pinyougou-page-service"/>-->
-    <!--    配置注册中心-->
-<!--    <dubbo:registry address="zookeeper://192.168.25.134:2181"/>-->
-    <!--    配置dubbo扫描包：将@service所在包放入dubbo扫描中，供dubbo在rpc时使用-->
-<!--    <dubbo:annotation package="com.pinyougou.page.service.impl"/>-->
-    <!--    配置dubbo扫描包：将@service所在包放入dubbo扫描中，供dubbo在rpc时使用-->
+<!--    因为使用activemq来执行网页静态化 所以不需要使用dubbo  注意：我们目前有两个服务工程，当两个工程同时启动时会发生端口
+        因为连接dubbox注册中心的端口默认是20880，所以重新配置端口为20882
+   <dubbo:protocol name="dubbo" port="20886"/>
+    配置dubbo应用名称
+  <dubbo:application name="pinyougou-page-service"/>
+      配置注册中心
+  <dubbo:registry address="zookeeper://192.168.25.134:2181"/>
+        配置dubbo扫描包：将@service所在包放入dubbo扫描中，供dubbo在rpc时使用
+    <dubbo:annotation package="com.pinyougou.page.service.impl"/>
+    配置dubbo扫描包：将@service所在包放入dubbo扫描中，供dubbo在rpc时使用-->
+
     <context:component-scan base-package="com.pinyougou.page.service.impl"/>
 
 <!--    配置framemarker-->

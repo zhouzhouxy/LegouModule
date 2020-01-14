@@ -121,12 +121,11 @@
             <artifactId>spring-security-config</artifactId>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>org.slf4j</groupId>-->
-<!--            <artifactId>slf4j-log4j12</artifactId>-->
-<!--            <version>1.5.8</version>-->
-<!--        </dependency>-->
-
+        <dependency>
+            <groupId>com.asura</groupId>
+            <artifactId>pinyougou-seckill-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>com.asura</groupId>
             <artifactId>pinyougou-common</artifactId>
